@@ -204,21 +204,12 @@ materials-transformer-bandgap-prediction/
 ├── README.md                          # This file
 ├── requirements.txt                   # Python dependencies
 ├── notebook.ipynb                     # Complete implementation
-├── train.py                          # Training script
-├── models/
-│   ├── transformer.py                # Transformer architecture
-│   ├── baseline.py                   # Baseline MLP
-│   └── loss.py                       # Physics-informed loss
-├── data/
-│   └── download_data.py              # Materials Project data collection
 ├── results/
 │   ├── bandgap_distribution.png      # Dataset visualization
-│   ├── results_comprehensive.png     # Training curves and predictions
-│   ├── best_transformer.pt           # Trained model weights
-│   └── best_baseline.pt              # Baseline weights
-└── docs/
-    ├── technical_report.pdf           # Detailed methodology
-    └── presentation.pdf               # Summary slides
+│   └── results_comprehensive.png     # Training curves and predictions
+└── models/
+    ├── best_transformer.pt           # Trained model weights
+    └── best_baseline.pt              # Baseline weights
 ```
 
 ## 📚 References
